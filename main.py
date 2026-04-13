@@ -142,9 +142,7 @@ def main():
         drop_pending_updates=True,
         allowed_updates=["chat_join_request"]
     )
-
-
-if name == "main":
+if __name__ == "__main__":
     main()
     while True:
         try:
